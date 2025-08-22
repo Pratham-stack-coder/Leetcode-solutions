@@ -12,15 +12,10 @@ This repository contains my **LeetCode solutions in C** for practice problems in
 ✅ Data Structures  
 ✅ Problem Solving  
 
-🔗 My LeetCode Profile: [Pratham_stack_coder](https://leetcode.com/u/Pratham_stack_coder)  
-
----
-
-## 🏆 Profile Badge  
-
+🔗 **My LeetCode Profile:**  
 <p align="center">
   <a href="https://leetcode.com/u/Pratham_stack_coder">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-Pratham__stack__coder-orange?style=for-the-badge&logo=LeetCode" />
   </a>
 </p>
 
