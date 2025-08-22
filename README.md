@@ -1,69 +1,57 @@
-<h1 align="center">🔥 LeetCode Solutions in C 🚀</h1>
+<h1 align="center">🔥 LeetCode Solutions in C 🔥</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=600&lines=Welcome+to+LeetCode+Solutions;C+Language+Implementations;Algorithms+%7C+Data+Structures;Coding+Interview+Preparation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Welcome+to+my+LeetCode+Solutions!;All+solutions+are+in+C;Profile:+Pratham_stack_coder;Solving+one+problem+at+a+time+🚀">
 </p>
 
 ---
 
-## 📌 About This Repo  
-This repository contains my **LeetCode solutions in C**, covering:  
-✅ Algorithms  
-✅ Data Structures  
-✅ Problem Solving & Interview Prep  
+## 👤 My LeetCode Profile  
+👉 [Pratham_stack_coder](https://leetcode.com/u/Pratham_stack_coder/)  
 
-🔗 **My LeetCode Profile:**  
+---
+
+## 🏆 Badges & Stats  
+
 <p align="center">
-  <a href="https://leetcode.com/u/Pratham_stack_coder">
-    <img src="https://img.shields.io/badge/LeetCode-Pratham__stack__coder-orange?style=for-the-badge&logo=LeetCode" />
-  </a>
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" />
+  <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Solutions-7-green?style=for-the-badge" />
 </p>
 
 ---
 
-## 🏆 Profile Showcase  
+## 📊 Solved Problems  
+
+<div align="center">
+
+| # | Problem | Difficulty | Status |
+|---|----------|------------|---------|
+| 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟠 Medium | ✅ Accepted |
+| 679 | [24 Game](https://leetcode.com/problems/24-game/) | 🔴 Hard | ✅ Accepted |
+| 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | ✅ Accepted |
+| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 Easy | ✅ Accepted |
+| 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | 🟠 Medium | ✅ Accepted |
+| 2438 | [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/) | 🟠 Medium | ✅ Accepted |
+| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | ✅ Accepted |
+
+</div>
+
+---
+
+## 🚀 Progress  
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Pratham_stack_coder?ext=heatmap" alt="LeetCode Profile Card" />
+  <img src="https://progress-bar.dev/7/?scale=100&title=Problems%20Solved&width=500&color=36BCF7" />
 </p>
 
 ---
 
-## 📖 Problem Index  
-
-| #   | Problem | Solution | Difficulty | LeetCode Link |
-|-----|----------|----------|------------|---------------|
-| 1   | Two Sum | [two-sum.c](solutions/two-sum.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/two-sum/) |
-| 2   | Reverse Integer | [reverse-integer.c](solutions/reverse-integer.c) | 🟠 Medium | [🔗 Link](https://leetcode.com/problems/reverse-integer/) |
-| 3   | Palindrome Number | [palindrome-number.c](solutions/palindrome-number.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/palindrome-number/) |
-| 4   | Valid Parentheses | [valid-parentheses.c](solutions/valid-parentheses.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/valid-parentheses/) |
-| 5   | Merge Two Sorted Lists | [merge-two-sorted-lists.c](solutions/merge-two-sorted-lists.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/merge-two-sorted-lists/) |
-| 6   | Climbing Stairs | [climbing-stairs.c](solutions/climbing-stairs.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/climbing-stairs/) |
-| 7   | Remove Duplicates from Sorted Array | [remove-duplicates.c](solutions/remove-duplicates.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
-| 8   | Maximum Subarray | [maximum-subarray.c](solutions/maximum-subarray.c) | 🟠 Medium | [🔗 Link](https://leetcode.com/problems/maximum-subarray/) |
-| 9   | Length of Last Word | [length-of-last-word.c](solutions/length-of-last-word.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/length-of-last-word/) |
-| 10  | Plus One | [plus-one.c](solutions/plus-one.c) | 🟢 Easy | [🔗 Link](https://leetcode.com/problems/plus-one/) |
+## ✨ Future Updates  
+- 📌 More solutions will be added weekly  
+- 📌 Optimization of C code for better efficiency  
+- 📌 Categorized problems (Arrays, Strings, DP, etc.)  
 
 ---
 
-## ⚡ Skills Covered  
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,git,linux" />
-</p>
-
----
-
-## 📈 Contribution Graph  
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratham-stack-coder&theme=react-dark" />
-</p>
-
----
-
-## 🚀 How to Use  
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/Pratham-stack-coder/leetcode-solutions.git
+<h3 align="center">🌟 Keep Learning • Keep Solving • Keep Growing 🌟</h3>
