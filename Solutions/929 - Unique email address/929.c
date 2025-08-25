@@ -1,65 +1,55 @@
-void removeDots(char *string)
-{
-    int i, k = 0, flag = 0;
-    for (i = 0; string[i] != '\0'; i++)
-    {
-        if (string[i] == '.' && !flag)
-        {
-            k++;
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define MAX_EMAILS 100
+#define MAX_LEN 100
+
+char* normalizeEmail(char* email) {
+    static char result[MAX_LEN];
+    int i = 0, j = 0;
+    int ignore = 0;
+
+    // Process local part
+    while (email[i] && email[i] != '@') {
+        if (email[i] == '+') {
+            ignore = 1;  // Ignore rest of local part
         }
-        else
-        {
-            if (string[i] == '@')
-            {
-                flag = 1;
-            }
-            string[i - k] = string[i];
+        if (!ignore && email[i] != '.') {
+            result[j++] = email[i];
         }
+        i++;
     }
-    string[i - k] = '\0';
+
+    // Copy domain part (including '@')
+    while (email[i]) {
+        result[j++] = email[i++];
+    }
+
+    result[j] = '\0';
+    return result;
 }
 
-int numUniqueEmails(char **emails, int emailsSize)
-{
-    int i, j, k, l, flag = 0;
-    if (emailsSize == 1)
-    {
-        return 1;
-    }
+int numUniqueEmails(char** emails, int emailsSize) {
+    char* unique[MAX_EMAILS];
+    int count = 0;
 
-    for (i = 0; i < emailsSize; i++)
-    {
-        for (j = 0; emails[i][j] != '@'; j++)
-        {
+    for (int i = 0; i < emailsSize; i++) {
+        char* norm = normalizeEmail(emails[i]);
 
-            if (emails[i][j] == '.')
-            {
-                removeDots(emails[i]);
-            }
-            else if (emails[i][j] == '+')
-            {
-                for (k = j + 1; emails[i][k] != '@'; k++)
-                {
-                }
-                for (l = 0; emails[i][l + k] != '\0'; l++)
-                {
-                    emails[i][l + j] = emails[i][l + k];
-                }
-                emails[i][l + j] = emails[i][l + k];
+        int found = 0;
+        for (int k = 0; k < count; k++) {
+            if (strcmp(unique[k], norm) == 0) {
+                found = 1;
                 break;
             }
         }
-    }
-    for (i = 0; i < emailsSize - 1; i++)
-    {
-        for (j = i + 1; j < emailsSize; j++)
-        {
-            if (!strcmp(emails[i], emails[j]))
-            {
-                flag++;
-                break;
-            }
+
+        if (!found) {
+            unique[count] = strdup(norm);
+            count++;
         }
     }
-    return emailsSize - flag;
+
+    return count;
 }
