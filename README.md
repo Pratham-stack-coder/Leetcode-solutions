@@ -31,6 +31,7 @@
 
 | # | Problem | Difficulty | Status |
 |---|----------|------------|---------|
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | 🟢 Easy | ✅ Accepted |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟠 Medium | ✅ Accepted |
 | 679 | [24 Game](https://leetcode.com/problems/24-game/) | 🔴 Hard | ✅ Accepted |
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | ✅ Accepted |
