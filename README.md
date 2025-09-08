@@ -35,6 +35,11 @@
 
 | # | Problem | Difficulty | Status |
 |---|----------|------------|---------|
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | 🟠 Medium | ✅ Accepted |
+| 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 🟠 Medium | ✅ Accepted |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | ✅ Accepted |
+| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | 🟢 Easy | ✅ Accepted |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | ✅ Accepted |
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | 🟢 Easy | ✅ Accepted |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟠 Medium | ✅ Accepted |
 | 679 | [24 Game](https://leetcode.com/problems/24-game/) | 🔴 Hard | ✅ Accepted |
