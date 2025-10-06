@@ -33,21 +33,29 @@
 
 <div align="center">
 
-| # | Problem | Difficulty | Status |
-|---|----------|------------|---------|
-| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | 🟠 Medium | ✅ Accepted |
-| 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 🟠 Medium | ✅ Accepted |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | ✅ Accepted |
-| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | 🟢 Easy | ✅ Accepted |
-| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | ✅ Accepted |
-| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | 🟢 Easy | ✅ Accepted |
-| 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟠 Medium | ✅ Accepted |
-| 679 | [24 Game](https://leetcode.com/problems/24-game/) | 🔴 Hard | ✅ Accepted |
-| 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | ✅ Accepted |
-| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 Easy | ✅ Accepted |
-| 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | 🟠 Medium | ✅ Accepted |
-| 2438 | [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/) | 🟠 Medium | ✅ Accepted |
-| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | ✅ Accepted |
+| # | Problem | Difficulty | Status | Solution Language(s) |
+|:---:|:----------|:------------:|:---------:|:----------------------:|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 679 | [24 Game](https://leetcode.com/problems/24-game/) | 🔴 Hard | ✅ Accepted | Python/Java/C++ |
+| 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 Easy | ✅ Accepted | Python/Java/C++ |
+| 2438 | [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/) | 🟠 Medium | ✅ Accepted | Python/Java/C++ |
+
 
 </div>
 
