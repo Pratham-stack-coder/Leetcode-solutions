@@ -1,0 +1,46 @@
+name: Compile All Solutions
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+      uses: actions/checkout@v3
+
+      - name: Install Compilers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc g++ default-jdk python3
+
+      - name: Compile C files
+        run: |
+          for file in *.c; do
+            echo "Compiling $file ..."
+            gcc "$file" -o "${file%.c}.out"
+          done
+
+      - name: Compile C++ files
+        run: |
+          for file in *.cpp; do
+            echo "Compiling $file ..."
+            g++ -std=c++17 "$file" -o "${file%.cpp}.out"
+          done
+
+      - name: Check Python Files
+        run: |
+          for file in *.py; do
+            echo "Checking $file ..."
+            python3 -m py_compile "$file"
+          done
+
+      - name: Compile Java Files
+        run: |
+          for file in *.java; do
+            echo "Compiling $file ..."
+            javac "$file"
+          done
