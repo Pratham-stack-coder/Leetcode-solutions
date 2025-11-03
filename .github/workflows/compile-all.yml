@@ -1,4 +1,4 @@
-name: Compile All Solutions
+name: Compile All LeetCode Solutions
 
 on:
   push:
@@ -10,37 +10,45 @@ jobs:
 
     steps:
       - name: Checkout repository
-      uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Compilers
         run: |
           sudo apt-get update
           sudo apt-get install -y gcc g++ default-jdk python3
 
+      # Compile C files in Solutions/*/
       - name: Compile C files
         run: |
-          for file in *.c; do
+          shopt -s nullglob
+          for file in Solutions/*/*.c; do
             echo "Compiling $file ..."
             gcc "$file" -o "${file%.c}.out"
           done
 
+      # Compile C++ files in Solutions/*/
       - name: Compile C++ files
         run: |
-          for file in *.cpp; do
+          shopt -s nullglob
+          for file in Solutions/*/*.cpp; do
             echo "Compiling $file ..."
             g++ -std=c++17 "$file" -o "${file%.cpp}.out"
           done
 
-      - name: Check Python Files
+      # Python syntax check
+      - name: Check Python files
         run: |
-          for file in *.py; do
+          shopt -s nullglob
+          for file in Solutions/*/*.py; do
             echo "Checking $file ..."
             python3 -m py_compile "$file"
           done
 
-      - name: Compile Java Files
+      # Compile Java files
+      - name: Compile Java files
         run: |
-          for file in *.java; do
+          shopt -s nullglob
+          for file in Solutions/*/*.java; do
             echo "Compiling $file ..."
             javac "$file"
           done
